@@ -95,6 +95,10 @@ P {
   padding: 120px 60px;
 }
 
+.img-fluid {
+  border-radius: 4px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
