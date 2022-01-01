@@ -109,6 +109,36 @@ P {
 .img-fluid {
   border-radius: 4px;
 }
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -133,4 +163,8 @@ P {
     padding: 0;
     text-align: center;
   }
+}
+
+nav a {
+  font-size: 12px;
 }
